@@ -1,1 +1,105 @@
+body {
+    margin: 0;
 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*navigatie*/
+.nav_home {
+    display: grid;
+    grid-template-columns: 1fr 1Fr;
+    background-color: #fffcef;
+    margin-top: 0%;
+}
+
+.logo_nav1 {
+    width: 30%;
+    margin-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 5%;
+    margin-left: 45%;
+
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #9862a6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: montserrat;
+}
+
+li a:hover {
+    color: #3e3a3f;
+}
+
+/*main*/
+.main_home {
+    background-color: #9862a6;
+    width: 100%;
+
+}
+
+.main_home div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.caravan_home {
+    margin-top: 15%;
+
+    width: 100%;
+}
+
+.h1_home {
+    color: #fad29b;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.main_home div section {
+    margin-top: 13%;
+}
+
+.p_home {
+    color: white;
+    font-size: 1em;
+    font-family: montserrat;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.pijl_home {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    align-content: center;
+}
+
+.pijl {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 10%;
+}
+
+.scroll {
+    margin-top: 20%;
+}
+
+/*footer*/
