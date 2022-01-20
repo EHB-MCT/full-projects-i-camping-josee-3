@@ -1,122 +1,854 @@
+@font-face {
+    font-family: Avant garde;
+    src: url(https://freefontsfamily.com/avant-garde-font/);
+}
+
+
 body {
-    margin: 0;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.container_home {
+    position: relative;
+    max-width: auto;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+}
+
+.container_home .content {
+    position: absolute;
+    /* Position the background text */
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding-top: 142px;
+    padding-bottom: 10%;
+    /* Some padding */
+}
+
+.container_home .button_home {
+    text-align: center;
+    margin-left: 45.5%;
+    padding: 14px 39px;
+    background: transparent;
+    border: 2px white solid;
+    color: white;
+
+    font-size: 1.2em;
+}
+
+.button_home:hover {
+    background-color: rgb(83, 124, 134);
+    color: rgb(255, 255, 255);
+}
+
+.lijntje_home {
+    margin-top: -40%;
+    width: 292%;
+    margin-left: -22%;
+}
+
+.logolijn_home {
+    margin-left: 38%;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 6%;
+}
+
+.logooo_home {
+    width: 240%;
+    margin-bottom: 15%;
+}
+
+.campingjoseeh1 {
+    text-align: center;
+    color: rgb(48, 151, 146);
+    font-size: 2.5em;
+}
+
+/*mainnn*/
+.main_home {
+    background-color: rgb(240, 239, 236);
 
 }
 
-html {
-    scroll-behavior: smooth;
+.lijntje_home2 {
+    margin-top: -40%;
+    width: 200%;
 }
 
-/*navigatie*/
-.nav_home {
+.logolijn_home2 {
+    margin-left: 40%;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+}
+
+.logooo_home2 {
+    width: 200%;
+    margin-bottom: 20%;
+}
+
+.campingjoseeh2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+.backpic {
+    width: 100%;
+}
+
+.container2_home {
+    position: relative;
+    margin-top: -8%;
+
+}
+
+.container2_home .content2 {
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    width: 20%;
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40%;
+    border: 1px black solid;
+    padding: 2%;
+    box-shadow: 4px 4px 2px 1px rgba(56, 56, 56, 0.2);
+}
+
+.container2_home .button_home {
+    text-align: center;
+    margin-left: 0%;
+    padding: 14px 39px;
+    background: transparent;
+    background-color: transparent;
+    border: 2px rgb(87, 87, 87) solid;
+    color: rgb(54, 54, 54);
+    font-size: 1.2em;
+    background-color: #27bad2;
+    margin-top: 8%;
+}
+
+.container3_home {
+    margin-top: 2%;
     display: grid;
-    grid-template-columns: 1fr 1Fr;
-    background-color: #fffcef;
-    margin-top: 0%;
-    margin-bottom: -2%;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin-top: 10;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.logo_nav1 {
-    width: 30%;
+.container3_home .content3 {
+    bottom: 0;
+    color: #000;
+    width: 40%;
+    padding-bottom: 10%;
+    background-color: rgb(240, 239, 236);
     margin-left: 5%;
+    border: 1px black solid;
+    padding: 2%;
+    box-shadow: 4px 4px 2px 1px rgba(56, 56, 56, 0.2);
 }
 
-ul {
-    list-style-type: none;
-    margin-top: 3%;
-    margin-left: 35%;
-    padding: 0px;
-    overflow: hidden;
+.container3_home .button_home {
+    text-align: center;
+    margin-left: 0%;
+    padding: 14px 39px;
+    background: transparent;
+    background-color: transparent;
+    border: 2px rgb(87, 87, 87) solid;
+    color: rgb(54, 54, 54);
+    font-size: 1.2em;
+    background-color: #27bad2;
+    margin-top: 8%;
+}
 
+.img3 {
+    margin-left: 45%;
+    box-shadow: 4px 4px 2px 1px rgba(56, 56, 56, 0.2);
+}
+
+
+.lijntje_home3 {
+    margin-top: 40%;
+    width: 200%;
+}
+
+.logolijn_home3 {
+    margin-left: 40%;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+    margin-top: 0%;
+}
+
+.logooo_home3 {
+    width: 200%;
+
+}
+
+.campingjoseeh3 {
+    margin-top: -20%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+
+
+/* pagina activiteiten  */
+/*navigatie*/
+nav {
+    background-color: #33cccc;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    width: max-content;
+    margin: 30px 50px;
+    padding-top: 5px;
+    border-top: solid 3px white;
+    color: white;
+}
+
+nav ul li {
+    margin: 0 30px;
+    display: inline-block;
     font-size: 1.3em;
 }
 
-li {
-    float: left;
+/* zorgt voor het lijntje onder da actieve pagina */
+#active {
+    text-decoration: underline solid 2px white;
+    color: #ffffff;
 }
 
-li a {
-    display: block;
-    color: #9862a6;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: montserrat;
+nav ul li:first-child {
+    margin-left: 0;
 }
 
-li a:hover {
-    color: #3e3a3f;
+nav ul li:last-child {
+    margin-right: 0;
 }
 
-/*main*/
-.main_home {
-    background-color: #9862a6;
-    width: 100%;
-
+#logo_act {
+    margin: 5px 25px;
+    width: 300px;
+    position: absolute;
 }
 
-.main_home div {
+#main_activiteit section:first-child {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
 }
 
-.caravan_home {
-    margin-top: 15%;
+.blabla_act {
+    grid-column: 1/4;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+.blabla_act div:nth-child(1) {
+    width: 100%;
+    margin: auto;
+}
+
+.logooo_act {
     width: 100%;
 }
 
-.h1_home {
-    color: #fad29b;
-    font-family: montserrat;
-    font-weight: bold;
-    font-size: 3em;
+.blabla_act h1 {
+    color: #000;
+    font-size: 4em;
+    margin-top: 0%;
+}
+
+.activiteiten {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 50px;
+}
+
+.activiteiten div {
+    margin: 0 30px;
+    background-color: #33cccc;
+}
+
+.Acti_vb {
+    background-color: #f3f3f3;
+    border-top: solid 20px #33cccc;
+    margin: 0 20px;
+    padding: 0 7% 30px 7%;
+    box-shadow: 0px 10px 5px #dbdbdb;
+}
+
+.fire_act {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.Acti_vb h2 {
     text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
 }
 
-.main_home div section {
-    margin-top: 13%;
+.Acti_vb img:nth-child(4) {
+    width: 100%;
+    margin: 10px 0;
 }
 
-.p_home {
+.Acti_vb p:nth-child(5) {
+    margin-bottom: 30px;
+}
+
+.Acti_vb a:nth-child(6) {
+    width: 40%;
+    padding: 10px;
+    margin: 0 30%;
+    background-color: #33cccc;
+    border-radius: 2px;
+}
+
+#talk_acti {
+    width: 100%;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+#roelsegers {
+    width: 1000px;
+    margin: -200px auto 50px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 5px#dbdbdb;
+    min-height: 450px;
+    z-index: 2;
+    position: relative;
+    border: solid 1px #dbdbdb;
+}
+
+#roelsegers img {
+    width: 50%;
+    margin: 0 25%;
+}
+
+#roelsegers h1 {
+    text-align: center;
+    color: #33cccc;
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+#roelsegers p {
+    text-align: center;
+    margin: 0 15%;
+}
+
+
+
+
+
+
+/*carousel*/
+* {
+    box-sizing: border-box
+}
+
+
+.slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 4%;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
     color: white;
-    font-size: 1em;
-    font-family: montserrat;
-    margin-left: 25%;
-    margin-right: 25%;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
     text-align: center;
 }
 
-.pijl_home {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    align-content: center;
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
-.pijl {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 10%;
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.scroll {
-    margin-top: 20%;
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.footerimg {
+    margin-top: 2%;
+    width: 100%;
 }
 
 /*footer*/
+.footer {
+    background-color: rgb(240, 239, 236);
 
-.lijntje {
-    border-top: solid 2px black;
-    margin-top: -25%;
-}
-
-.blabla {
-    margin-left: 45%;
-    width: 10%;
-    text-align: center;
-    align-content: center;
-}
-
-.logooo {
     width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+}
+
+.footer .about {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .about span {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .icons {
+    margin-top: 25px;
+}
+
+.footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+    width: 30%;
+}
+
+.footer .footer-center i {
+    background-color: #33383b;
+    color: #000000;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #000000;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color: #2d7e7e;
+    text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+    width: 35%;
+}
+
+.footer h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer h2 span {
+    color: #2d7e7e;
+}
+
+.footer .menu {
+    color: #000000;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .menu a:hover {
+    color: #2d7e7e;
+}
+
+.footer .name {
+    color: #2d7e7e;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/*activiteiten*/
+
+
+@media (max-width: 767px) {
+    .footer {
+        font-size: 14px;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container_home .button_home {
+        text-align: center;
+        margin-left: 43.5%;
+        padding: 0px 3px;
+        background: transparent;
+        border: 1px white solid;
+        color: white;
+        font-size: 1em;
+    }
+
+    .logolijn_home {
+        margin-left: 15%;
+        width: 30%;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 6%;
+    }
+
+    .texttelweg {
+        display: none;
+    }
+
+    .campingjoseeh2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+    }
+
+    .container2_home .content2 {
+        position: absolute;
+        bottom: 0;
+        color: #000;
+        width: 40%;
+        padding-bottom: 10%;
+        background-color: rgb(255, 255, 255);
+        margin-left: 30%;
+        border: 1px black solid;
+        padding: 2%;
+        box-shadow: 4px 4px 2px 1px rgba(56, 56, 56, 0.2);
+    }
+
+
+    .container2_home .button_home {
+        text-align: center;
+        margin-left: 24%;
+        padding: 0px 0px;
+        background: transparent;
+        background-color: transparent;
+        background-color: transparent;
+        background-color: transparent;
+        border: 2px rgb(87, 87, 87) solid;
+        color: rgb(54, 54, 54);
+        font-size: 0.8em;
+        background-color: #27bad2;
+        margin-top: 0%;
+    }
+
+    .img3 {
+        margin-left: 5%;
+        box-shadow: 4px 4px 2px 1px rgba(56, 56, 56, 0.2);
+        width: 90%;
+    }
+
+    .container3_home .content3 {
+        bottom: 0;
+        color: #000;
+        width: 90%;
+        padding-bottom: 10%;
+        background-color: rgb(255, 255, 255);
+        margin-left: 5%;
+        border: 1px black solid;
+        padding: 2%;
+        box-shadow: 4px 4px 2px 1px rgba(56, 56, 56, 0.2);
+        font-size: 0.7em;
+    }
+
+    .slideshow-container {
+        max-width: 200px;
+        position: relative;
+        margin: auto;
+        margin-top: auto;
+        margin-top: auto;
+        margin-top: 4%;
+    }
+
+    .footer {
+        background-color: rgb(240, 239, 236);
+        width: 100%;
+        text-align: left;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 50px;
+        margin-top: -33px;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    /*activiteiten*/
+    #logo_act {
+        margin: 5px 25px;
+        width: 300px;
+        position: absolute;
+        display: none;
+
+    }
+
+    nav ul li:first-child {
+        margin-left: 30px;
+    }
+
+    #main_activiteit section:first-child {
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .blabla_act h1 {
+        color: #000;
+        font-size: 1em;
+        margin-top: 0%;
+
+    }
+
+    .Acti_vb {
+        background-color: #f3f3f3;
+        border-top: solid 20px #33cccc;
+        margin: 0 20px;
+        margin-bottom: 0px;
+        padding: 0 7% 30px 7%;
+        box-shadow: 0px 10px 5px #dbdbdb;
+        margin-bottom: 10%;
+    }
+
+    #roelsegers {
+        width: 300px;
+        margin: -100px auto 50px auto;
+        padding: 9px;
+        background-color: white;
+        box-shadow: 0px 10px 5px #dbdbdb;
+        min-height: 450px;
+        z-index: 2;
+        position: relative;
+        border: solid 1px #dbdbdb;
+    }
+
+    #roelsegers h1 {
+        text-align: center;
+        color: #000000;
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    #roelsegers p {
+        text-align: center;
+        margin: 0px 15%;
+        font-size: 0.7em;
+    }
+
+    #talk_acti {
+        width: 100%;
+        margin-top: 75px;
+        z-index: 1;
+    }
+
+    #roelsegers {
+        width: 300px;
+        margin: -100px auto 50px auto;
+        padding: 9px;
+        background-color: white;
+        box-shadow: 0px 10px 5px #dbdbdb;
+        min-height: 280px;
+        z-index: 2;
+        position: relative;
+        border: solid 1px #dbdbdb;
+        margin-bottom: 18%;
+    }
 }
