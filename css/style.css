@@ -40,9 +40,9 @@ button a {
 
 .container_home .button_home {
     text-align: center;
-    margin-left: 45.5%;
+    margin-left: 37.5%;
     padding: 14px 39px;
-    background: transparent;
+    background-color: #5BB4B5;
     border: 2px white solid;
     color: white;
 
@@ -50,7 +50,7 @@ button a {
 }
 
 .button_home:hover {
-    background-color: rgb(83, 124, 134);
+    background: transparent;
     color: rgb(255, 255, 255);
 }
 
@@ -69,14 +69,24 @@ button a {
 }
 
 .logooo_home {
-    width: 240%;
+    width: 120%;
     margin-bottom: 15%;
+    margin-left: 55%;
 }
 
 .campingjoseeh1 {
     text-align: center;
     color: rgb(48, 151, 146);
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-top: 6%;
+}
+
+.textcamping_home {
+    margin-top: -8%;
+}
+
+span {
+    text-decoration: underline;
 }
 
 /*mainnn*/
@@ -98,8 +108,9 @@ button a {
 }
 
 .logooo_home2 {
-    width: 200%;
+    width: 120%;
     margin-bottom: 20%;
+    margin-left: 36%;
 }
 
 .campingjoseeh2 {
@@ -134,11 +145,12 @@ button a {
 .container2_home .button_home {
     text-align: center;
     margin-left: 0%;
-    padding: 14px 39px;
+    padding: 10px 10px;
     background: transparent;
     background-color: transparent;
-    border: 2px rgb(87, 87, 87) solid;
-    color: rgb(54, 54, 54);
+    background-color: transparent;
+    border: 1px rgb(0, 0, 0) solid;
+    color: rgb(255, 255, 255);
     font-size: 1.2em;
     background-color: #27bad2;
     margin-top: 8%;
@@ -199,8 +211,13 @@ button a {
 }
 
 .logooo_home3 {
-    width: 200%;
+    width: 140%;
+    margin-left: 30%;
+    margin-top: 30%;
+}
 
+.main_home2 {
+    background-color: white;
 }
 
 .campingjoseeh3 {
@@ -215,23 +232,28 @@ button a {
 /* pagina activiteiten  */
 /*navigatie*/
 nav {
-    background-color: #33cccc;
+    background-color: #5BB4B5;
     display: flex;
     justify-content: flex-end;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 nav ul {
     width: max-content;
-    margin: 30px 50px;
+
     padding-top: 5px;
-    border-top: solid 3px white;
+    margin-right: 3%;
     color: white;
 }
 
 nav ul li {
     margin: 0 30px;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 /* zorgt voor het lijntje onder da actieve pagina */
@@ -239,6 +261,8 @@ nav ul li {
     text-decoration: underline solid 2px white;
     color: #ffffff;
 }
+
+/*activiteiten*/
 
 nav ul li:first-child {
     margin-left: 0;
@@ -248,128 +272,109 @@ nav ul li:last-child {
     margin-right: 0;
 }
 
-#logo_act {
-    margin: 5px 25px;
-    width: 300px;
-    position: absolute;
-}
 
-#main_activiteit section:first-child {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-}
+
+
 
 .blabla_act {
-    grid-column: 1/4;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1FR 1FR;
 }
 
-.blabla_act div:nth-child(1) {
+
+.grid_colums_act a {
+    color: #5BB4B5;
+    text-decoration: underline;
+    font-size: 1.4em;
+
+
+}
+
+.navactboven {
+    display: grid;
+    grid-template-columns: 1fr 1Fr 1FR;
+}
+
+.navactboven a {
+    color: #5BB4B5;
+    text-decoration: underline;
+    margin: 7%;
+}
+
+.navactboven p {
     width: 100%;
-    margin: auto;
+    margin-left: 101%;
+    margin-right: 20%;
+}
+
+.imglogojosee {
+    width: 15%;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 6%;
+}
+
+.grid_colums_act ul {
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+
+.blabla_act div {
+    margin-top: 1%;
+    grid-column: 2/4;
+    margin-left: 12.5%;
+}
+
+.blabla_act div h1 {
+    /* text-align: center; */
+    font-size: 2em;
+    margin-left: 2%;
+    margin-top: 0%;
+    font-weight: normal;
+    margin-bottom: 7%;
 }
 
 .logooo_act {
-    width: 100%;
+    width: 25%;
 }
 
-.blabla_act h1 {
-    color: #000;
-    font-size: 4em;
-    margin-top: 0%;
-}
-
-.activiteiten {
-    width: 100%;
+.grid_colums_act {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    min-height: 50px;
+    grid-template-columns: 1fr 1FR 1FR;
+    align-content: center;
+    /* margin: 5%; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 7.5%;
 }
 
-.activiteiten div {
-    margin: 0 30px;
-    background-color: #33cccc;
+.foto1_act {
+    width: 75%;
 }
 
-.Acti_vb {
-    background-color: #f3f3f3;
-    border-top: solid 20px #33cccc;
-    margin: 0 20px;
-    padding: 0 7% 30px 7%;
-    box-shadow: 0px 10px 5px #dbdbdb;
+.undertext {
+    color: #5BB4B5;
+    font-weight: bold;
 }
 
-.fire_act {
-    width: 50%;
-    margin: 0 25%;
-}
-
-.Acti_vb h2 {
+.grid_colums_act .button_home {
     text-align: center;
-    font-size: 2em;
-    margin-bottom: 30px;
+    margin-left: 0%;
+    padding: 10px 10px;
+    background: transparent;
+    background-color: transparent;
+    background-color: transparent;
+    border: 1px rgb(148, 148, 148) solid;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    background-color: #5BB4B5;
+    margin-top: 8%;
 }
 
-.Acti_vb img:nth-child(4) {
+.footerimg_act {
+    margin-top: 10%;
     width: 100%;
-    margin: 10px 0;
 }
-
-.Acti_vb p:nth-child(5) {
-    margin-bottom: 30px;
-}
-
-.Acti_vb a:nth-child(6) {
-    width: 40%;
-    padding: 10px;
-    margin: 0 30%;
-    background-color: #33cccc;
-    border-radius: 2px;
-}
-
-#talk_acti {
-    width: 100%;
-    margin-top: 200px;
-    z-index: 1;
-}
-
-#roelsegers {
-    width: 1000px;
-    margin: -200px auto 50px auto;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 10px 5px#dbdbdb;
-    min-height: 450px;
-    z-index: 2;
-    position: relative;
-    border: solid 1px #dbdbdb;
-}
-
-#roelsegers img {
-    width: 50%;
-    margin: 0 25%;
-}
-
-#roelsegers h1 {
-    text-align: center;
-    color: #33cccc;
-    font-size: 4em;
-    margin-bottom: 40px;
-}
-
-#roelsegers p {
-    text-align: center;
-    margin: 0 15%;
-}
-
-
-
-
-
 
 /*carousel*/
 * {
@@ -459,6 +464,76 @@ nav ul li:last-child {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+/* contact pagina */
+#logooo_actbr {
+    width: 100%;
+}
+
+#main_contact {
+    width: 60%;
+    margin: auto;
+}
+
+#main_contact .blabla_act {
+    width: 50%;
+}
+
+#main_contact .blabla_act h1 {
+    font-size: 2em;
+}
+
+#main_contact section:nth-child(3) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#main_contact section:nth-child(3) div:nth-child(2) {
+    display: grid;
+    padding: 25px 40px;
+}
+
+.h1_cont {
+    margin-left: 27%;
+    margin-top: -2%;
+    margin-bottom: 10%;
+    font-weight: lighter;
+}
+
+#main_contact input {
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#main_contact #contact_button {
+    padding: 10px;
+    width: max-content;
+    height: max-content;
+    background-color: #33cccc;
+    color: white;
+}
+
+.footerimgbr {
+    width: 100%;
+    margin-top: 12%;
+}
+
+#main_contact figure {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#main_contact figure img {
+    width: 100%;
 }
 
 @-webkit-keyframes fade {
@@ -669,12 +744,14 @@ nav ul li:last-child {
 @media screen and (max-width: 480px) {
     .container_home .button_home {
         text-align: center;
-        margin-left: 43.5%;
+        margin-left: 21.5%;
         padding: 0px 3px;
         background: transparent;
         border: 1px white solid;
         color: white;
         font-size: 1em;
+        margin-top: -11%;
+        margin-bottom: 13%;
     }
 
     .logolijn_home {
@@ -693,6 +770,31 @@ nav ul li:last-child {
         text-align: center;
         color: rgb(0, 0, 0);
         font-size: 1em;
+    }
+
+    span {
+        text-decoration: underline;
+        font-size: 0.5em;
+        margin-left: 10%;
+    }
+
+    .campingjoseeh3 {
+        margin-top: -20%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+    }
+
+    .textcamping_home {
+        margin-top: -3%;
+        font-size: 0.6em;
+    }
+
+    .campingjoseeh1 {
+        text-align: center;
+        color: rgb(48, 151, 146);
+        font-size: 2em;
+        margin-top: 6%;
     }
 
     .container2_home .content2 {
@@ -850,5 +952,40 @@ nav ul li:last-child {
         position: relative;
         border: solid 1px #dbdbdb;
         margin-bottom: 18%;
+    }
+
+    .grid_colums_act {
+        display: block;
+        grid-template-columns: 1fr 1FR 1FR;
+        align-content: center;
+        margin: 5%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 7.5%;
+    }
+
+    .blabla_act div h1 {
+        text-align: center;
+        font-size: 1em;
+        margin-left: -75%;
+        margin-top: 0%;
+        font-weight: normal;
+        margin-bottom: 7%;
+    }
+
+    .grid_colums_act .button_home {
+        text-align: center;
+        margin-left: 0%;
+        padding: 10px 10px;
+        background: transparent;
+        background-color: transparent;
+        background-color: transparent;
+        background-color: transparent;
+        border: 1px rgb(148, 148, 148) solid;
+        color: rgb(255, 255, 255);
+        font-size: 1.2em;
+        background-color: #5BB4B5;
+        margin-top: 8%;
+        margin-bottom: 20%;
     }
 }
