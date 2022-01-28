@@ -326,10 +326,10 @@ nav ul li:last-child {
 }
 
 .blabla_act div h1 {
-    /* text-align: center; */
+    text-align: center;
     font-size: 2em;
     margin-left: 2%;
-    margin-top: 0%;
+    margin-top: -0.5%;
     font-weight: normal;
     margin-bottom: 7%;
 }
@@ -477,7 +477,7 @@ nav ul li:last-child {
 }
 
 #main_contact .blabla_act {
-    width: 50%;
+    width: 70%;
 }
 
 #main_contact .blabla_act h1 {
@@ -495,10 +495,10 @@ nav ul li:last-child {
 }
 
 .h1_cont {
-    margin-left: 27%;
+    margin-left: 34.5%;
     margin-top: -2%;
     margin-bottom: 10%;
-    font-weight: lighter;
+
 }
 
 #main_contact input {
