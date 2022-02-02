@@ -471,6 +471,13 @@ nav ul li:last-child {
     width: 100%;
 }
 
+.actvh1 {
+    margin-left: 2%;
+    font-weight: unset;
+    font-size: 2em;
+    margin-top: 0%;
+}
+
 #main_contact {
     width: 60%;
     margin: auto;
@@ -721,6 +728,89 @@ nav ul li:last-child {
 
 /*activiteiten*/
 
+/*galerij*/
+.galerijdiv1 {
+    margin-top: 1%;
+}
+
+.logooo_galerij {
+    margin-left: 42.5%;
+    width: 15%;
+}
+
+.galrijh1 {
+    text-align: center;
+
+    font-weight: unset;
+    font-size: 2em;
+    margin-top: 0%;
+}
+
+.maingalerij {
+    display: grid;
+    padding: 10%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.maingalerij div {
+    margin-bottom: 3%;
+}
+
+.eersterijfoto {
+    display: grid;
+    grid-template-columns: 1fr 1Fr 1FR;
+    padding-left: 5%;
+}
+
+.tweederijfoto {
+    display: grid;
+    grid-template-columns: 1Fr 1Fr;
+    padding-left: 5%;
+}
+
+
+
+.containergly {
+    position: relative;
+    width: 88%;
+}
+
+.imagegly {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlaygly {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(51, 144, 156, 0.5);
+}
+
+.containergly:hover .overlaygly {
+    opacity: 1;
+
+}
+
+.textgly {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 @media (max-width: 767px) {
     .footer {
