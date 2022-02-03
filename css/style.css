@@ -65,7 +65,8 @@ button a {
     width: 10%;
     text-align: center;
     align-content: center;
-    margin-bottom: 6%;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 .logooo_home {
@@ -640,6 +641,59 @@ nav ul li:last-child {
     margin-bottom: 5px;
 }
 
+.abovefooter {
+    background-color: #1a8391;
+}
+
+.abovefootertext {
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.buttonIn {
+    width: 300px;
+    position: relative;
+    margin-left: 35%;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 150%;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20%;
+
+}
+
+.buttonfooter {
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    border: 1px solid white;
+    left: 123.5%;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    background-color: #188a99;
+    transform: translateX(2px);
+    width: 25%;
+}
+
+
+
+.inputabovefooter {
+    padding-left: 10px;
+
+}
 
 /* footer center*/
 
