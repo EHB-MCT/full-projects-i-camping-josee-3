@@ -345,7 +345,7 @@ nav ul li:last-child {
     align-content: center;
     /* margin: 5%; */
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 7%;
     margin-left: 7.5%;
 }
 
@@ -468,19 +468,55 @@ nav ul li:last-child {
 }
 
 /* contact pagina */
+/* contact pagina */
 #logooo_actbr {
     width: 100%;
 }
 
-.actvh1 {
-    margin-left: 2%;
-    font-weight: unset;
-    font-size: 2em;
-    margin-top: 0%;
+#header_contact {
+    width: 30%;
+    margin: auto;
+}
+
+.contact_wie {
+    margin-bottom: 60px;
+}
+
+.wie_logo {
+    width: 50%;
+    margin: 0 25%;
 }
 
 #main_contact {
     width: 60%;
+    margin: auto;
+}
+
+.wie_tekst h1:nth-child(1) {
+    margin-top: 0px;
+}
+
+.wie_tekst p:nth-child(2) {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.wie_tekst span {
+    text-decoration: none;
+}
+
+.wie_tekst span p {
+    text-align: center;
+    font-style: italic;
+    color: #27bad2;
+}
+
+#contact_geg {
+    margin-left: 0;
+    grid-column: 2/3;
+}
+
+#main_contact .blabla_act {
     margin: auto;
 }
 
@@ -509,6 +545,16 @@ nav ul li:last-child {
 
 }
 
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+#map {
+    width: 100%;
+    /* height: 300px; */
+}
+
 #main_contact input {
     height: 20px;
     border: none;
@@ -531,7 +577,7 @@ nav ul li:last-child {
 
 #main_contact figure {
     display: grid;
-    width: 70%;
+    width: 50%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     margin-inline-start: 0;
@@ -888,14 +934,14 @@ input {
 @media screen and (max-width: 480px) {
     .container_home .button_home {
         text-align: center;
-        margin-left: 21.5%;
+        margin-left: 33.5%;
         padding: 0px 3px;
         background: transparent;
-        border: 1px white solid;
+        border: 0.6px white solid;
         color: white;
-        font-size: 1em;
-        margin-top: -11%;
-        margin-bottom: 13%;
+        font-size: 0.5em;
+        margin-top: 0%;
+        margin-bottom: 3%;
     }
 
     .logolijn_home {
@@ -914,6 +960,13 @@ input {
         text-align: center;
         color: rgb(0, 0, 0);
         font-size: 1em;
+        margin-left: -8%;
+        margin-top: 10%;
+    }
+
+    .abovefooter {
+        background-color: #1a8391;
+        display: none;
     }
 
     span {
@@ -939,6 +992,13 @@ input {
         color: rgb(48, 151, 146);
         font-size: 2em;
         margin-top: 6%;
+        margin-left: -6%;
+    }
+
+    .logooo_home2 {
+        width: 180%;
+        margin-bottom: 20%;
+        margin-left: 20%;
     }
 
     .container2_home .content2 {
@@ -1006,7 +1066,26 @@ input {
         font-weight: bold;
         font-size: 16px;
         padding: 50px;
-        margin-top: -33px;
+        margin-top: 25px;
+    }
+
+    .actvh1 {
+        margin-left: -6%;
+        font-weight: unset;
+        font-size: 1em;
+        margin-top: 0%;
+    }
+
+    .navactboven p {
+        width: 100%;
+        margin-left: 101%;
+        margin-right: 20%;
+        text-align: center;
+    }
+
+    .logooo_act {
+        width: 40%;
+        margin-left: -6%;
     }
 
     .footer .footer-left,
